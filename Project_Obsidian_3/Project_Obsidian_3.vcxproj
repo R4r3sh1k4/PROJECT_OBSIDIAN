@@ -143,6 +143,8 @@
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="Main_Menu.cpp" />
     <ClCompile Include="Main_Menu_Sounds.cpp" />
+    <ClCompile Include="Player_Class.cpp" />
+    <ClCompile Include="Player_Class_Derivates.cpp" />
     <ClCompile Include="Project_Obsidian_3.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +153,8 @@
     <ClInclude Include="Main_Menu.h" />
     <ClInclude Include="Main_Menu_Sounds.h" />
     <ClInclude Include="Master_Header.h" />
+    <ClInclude Include="Player_Class.h" />
+    <ClInclude Include="Player_Class_Derivates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
