@@ -8,8 +8,20 @@
 int main()
 {
 
+    ////////////////////////////////////////////
+    Gravis gravis;
+    Levis levis;
+    Burner burner;
 
+    std::cout << "Gravis crit chance: " << (gravis.Crit_Chance() ? "true" : "false") << std::endl;
+    std::cout << "Levis crit chance: " << (levis.Crit_Chance() ? "true" : "false") << std::endl;
+    std::cout << "Burner crit chance: " << (burner.Crit_Chance() ? "true" : "false") << std::endl;
+    system("pause");
+    system("cls");
+    Choose_Class();
 
+    system("pause");
+    ////////////////////////////////////////////
     std::cout << "Hello World!\n";
 
     // Main menu :) 
@@ -37,11 +49,9 @@ int main()
         IntroMusicThread.join();
         TextIntroNarrationThread.join();
         TextIntroThread.join();
-
-
-
+        system("Cls");
     }
-
+    
 
 
 

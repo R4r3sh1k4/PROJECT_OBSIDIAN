@@ -60,3 +60,15 @@ void Player::display_Stats() const {
     std::cout << "Crit Multiplier: " << get_CritMultiplier() << "x" << std::endl;
 }
 
+bool Player::Crit_Chance() const {
+
+    static std::random_device rd;
+    static std::mt19937 gen(rd());
+    static std::uniform_int_distribution<> dis(1, 100);
+
+    int random_number = dis(gen);
+    return random_number <= crit_chance;
+
+
+}
+

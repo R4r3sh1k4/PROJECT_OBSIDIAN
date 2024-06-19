@@ -26,4 +26,5 @@ public:
     virtual ~Burner();  // Virtual destructor
 };
 
+
 #endif // DERIVEDCLASSES_H

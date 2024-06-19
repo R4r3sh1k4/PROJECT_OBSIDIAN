@@ -2,10 +2,10 @@
 
 // Gravis class
 Gravis::Gravis() {
-    set_HP(120);
+    set_HP(400);
     set_Class("Gravis");
-    set_Damage(15);
-    set_CritChance(5);
+    set_Damage(35);
+    set_CritChance(35);
     set_CritMultiplier(2);
 }
 
@@ -13,10 +13,10 @@ Gravis::~Gravis() {}
 
 // Levis class
 Levis::Levis() {
-    set_HP(80);
+    set_HP(120);
     set_Class("Levis");
-    set_Damage(25);
-    set_CritChance(10);
+    set_Damage(60);
+    set_CritChance(25);
     set_CritMultiplier(3);
 }
 
@@ -24,11 +24,13 @@ Levis::~Levis() {}
 
 // Burner class
 Burner::Burner() {
-    set_HP(90);
+    set_HP(150);
     set_Class("Burner");
-    set_Damage(20);
-    set_CritChance(15);
+    set_Damage(45);
+    set_CritChance(30);
     set_CritMultiplier(4);
 }
 
 Burner::~Burner() {}
+
+

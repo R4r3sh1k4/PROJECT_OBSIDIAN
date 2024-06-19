@@ -5,6 +5,11 @@
 
 #include <iostream>
 #include <string>
+#include <random>
+
+
+
+
 
 // Base class
 class Player {
@@ -31,7 +36,7 @@ public:
     virtual int get_Damage() const;
     virtual int get_CritChance() const;
     virtual int get_CritMultiplier() const;
-
+    virtual bool Crit_Chance() const;
     virtual void display_Stats() const;
 };
 

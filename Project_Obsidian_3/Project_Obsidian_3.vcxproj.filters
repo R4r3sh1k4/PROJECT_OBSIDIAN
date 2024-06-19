@@ -36,6 +36,12 @@
     <ClCompile Include="Player_Class_Derivates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Random_Chance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc_Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Master_Header.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Player_Class_Derivates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random_Chance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc_Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
