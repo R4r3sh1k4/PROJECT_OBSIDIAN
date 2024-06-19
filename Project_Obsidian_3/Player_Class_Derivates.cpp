@@ -1,34 +1,34 @@
 #include "Player_Class_Derivates.h"
 
-// Warrior class
-Warrior::Warrior() {
-    setHP(120);
-    setClass("Warrior");
-    setDamage(15);
-    setCritChance(5);
-    setCritMultiplier(2);
+// Gravis class
+Gravis::Gravis() {
+    set_HP(120);
+    set_Class("Gravis");
+    set_Damage(15);
+    set_CritChance(5);
+    set_CritMultiplier(2);
 }
 
-Warrior::~Warrior() {}
+Gravis::~Gravis() {}
 
-// Mage class
-Mage::Mage() {
-    setHP(80);
-    setClass("Mage");
-    setDamage(25);
-    setCritChance(10);
-    setCritMultiplier(3);
+// Levis class
+Levis::Levis() {
+    set_HP(80);
+    set_Class("Levis");
+    set_Damage(25);
+    set_CritChance(10);
+    set_CritMultiplier(3);
 }
 
-Mage::~Mage() {}
+Levis::~Levis() {}
 
-// Archer class
-Archer::Archer() {
-    setHP(90);
-    setClass("Archer");
-    setDamage(20);
-    setCritChance(15);
-    setCritMultiplier(4);
+// Burner class
+Burner::Burner() {
+    set_HP(90);
+    set_Class("Burner");
+    set_Damage(20);
+    set_CritChance(15);
+    set_CritMultiplier(4);
 }
 
-Archer::~Archer() {}
+Burner::~Burner() {}

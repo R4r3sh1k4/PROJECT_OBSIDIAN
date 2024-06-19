@@ -1,10 +1,5 @@
 #include "Intro.h"
 
-
-
-
-
-
 void Intro_audio() {
     sf::SoundBuffer buffer2;
     if (!buffer2.loadFromFile("Intro_Music.wav")) {

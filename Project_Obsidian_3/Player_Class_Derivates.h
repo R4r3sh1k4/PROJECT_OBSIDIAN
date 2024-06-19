@@ -5,25 +5,25 @@
 
 #include "Player_Class.h"
 
-// Derived class: Warrior
-class Warrior : public Player {
+// Derived class: Gravis
+class Gravis : public Player {
 public:
-    Warrior();
-    virtual ~Warrior();  // Virtual destructor
+    Gravis();
+    virtual ~Gravis();  // Virtual destructor
 };
 
-// Derived class: Mage
-class Mage : public Player {
+// Derived class: levis
+class Levis : public Player {
 public:
-    Mage();
-    virtual ~Mage();  // Virtual destructor
+    Levis();
+    virtual ~Levis();  // Virtual destructor
 };
 
-// Derived class: Archer
-class Archer : public Player {
+// Derived class: Burner
+class Burner : public Player {
 public:
-    Archer();
-    virtual ~Archer();  // Virtual destructor
+    Burner();
+    virtual ~Burner();  // Virtual destructor
 };
 
 #endif // DERIVEDCLASSES_H

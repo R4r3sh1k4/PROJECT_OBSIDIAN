@@ -16,23 +16,23 @@ private:
     int crit_multiplier;
 
 protected:
-    void setHP(int hp);
-    void setClass(const std::string& cls);
-    void setDamage(int dmg);
-    void setCritChance(int chance);
-    void setCritMultiplier(int multiplier);
+    void set_HP(int hp);
+    void set_Class(const std::string& cls);
+    void set_Damage(int dmg);
+    void set_CritChance(int chance);
+    void set_CritMultiplier(int multiplier);
 
 public:
     Player();
     virtual ~Player();  // Virtual destructor
 
-    virtual int getHP() const;
-    virtual std::string getClass() const;
-    virtual int getDamage() const;
-    virtual int getCritChance() const;
-    virtual int getCritMultiplier() const;
+    virtual int get_HP() const;
+    virtual std::string get_Class() const;
+    virtual int get_Damage() const;
+    virtual int get_CritChance() const;
+    virtual int get_CritMultiplier() const;
 
-    virtual void displayStats() const;
+    virtual void display_Stats() const;
 };
 
 #endif // PLAYER_H

@@ -10,53 +10,53 @@ Player::Player() : HP(100), Class(""), damage(10), crit_chance(0), crit_multipli
 Player::~Player() {}
 
 // Protected setters
-void Player::setHP(int hp) {
+void Player::set_HP(int hp) {
     HP = hp;
 }
 
-void Player::setClass(const std::string& cls) {
+void Player::set_Class(const std::string& cls) {
     Class = cls;
 }
 
-void Player::setDamage(int dmg) {
+void Player::set_Damage(int dmg) {
     damage = dmg;
 }
 
-void Player::setCritChance(int chance) {
+void Player::set_CritChance(int chance) {
     crit_chance = chance;
 }
 
-void Player::setCritMultiplier(int multiplier) {
+void Player::set_CritMultiplier(int multiplier) {
     crit_multiplier = multiplier;
 }
 
 // Getters
-int Player::getHP() const {
+int Player::get_HP() const {
     return HP;
 }
 
-std::string Player::getClass() const {
+std::string Player::get_Class() const {
     return Class;
 }
 
-int Player::getDamage() const {
+int Player::get_Damage() const {
     return damage;
 }
 
-int Player::getCritChance() const {
+int Player::get_CritChance() const {
     return crit_chance;
 }
 
-int Player::getCritMultiplier() const {
+int Player::get_CritMultiplier() const {
     return crit_multiplier;
 }
 
 // Display stats
-void Player::displayStats() const {
-    std::cout << "Class: " << getClass() << std::endl;
-    std::cout << "HP: " << getHP() << std::endl;
-    std::cout << "Damage: " << getDamage() << std::endl;
-    std::cout << "Crit Chance: " << getCritChance() << "%" << std::endl;
-    std::cout << "Crit Multiplier: " << getCritMultiplier() << "x" << std::endl;
+void Player::display_Stats() const {
+    std::cout << "Class: " << get_Class() << std::endl;
+    std::cout << "HP: " << get_HP() << std::endl;
+    std::cout << "Damage: " << get_Damage() << std::endl;
+    std::cout << "Crit Chance: " << get_CritChance() << "%" << std::endl;
+    std::cout << "Crit Multiplier: " << get_CritMultiplier() << "x" << std::endl;
 }
 
