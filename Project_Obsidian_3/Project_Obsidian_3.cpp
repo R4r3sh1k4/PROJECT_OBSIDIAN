@@ -9,6 +9,14 @@ int main()
 {
 
     ////////////////////////////////////////////
+    L_Border();
+    Spaces(4);
+    R_Border();
+        Spaces(3);
+        T_Border(29);
+        Spaces(3);
+        B_Border(29);
+
     Gravis gravis;
     Levis levis;
     Burner burner;

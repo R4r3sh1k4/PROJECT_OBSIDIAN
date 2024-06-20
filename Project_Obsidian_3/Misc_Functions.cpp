@@ -1,5 +1,50 @@
 #include "Misc_Functions.h"
 
+///////////////////////////////////////////////////////////////////////
+// F U N C T I O N   T O   A D D   S P A C E S   A N D   B O R D E R S
+
+void Spaces(int num_of_spaces) {
+    for (int i = 0; i <= num_of_spaces; i++) {
+        std::cout << std::endl;
+    }
+}
+
+
+void L_Border() {
+    char ASCII = 186;
+    std::cout << ASCII;
+}
+void R_Border() {
+    char ASCII = 186;
+    std::cout << ASCII<< std::endl;
+}
+void T_Border(int top_size) {
+    char ASCII = 205; 
+    char L_ASCII = 201;
+    char R_ASCII = 187;
+
+    std::cout << L_ASCII;
+    for (int i = 0; i <= top_size; i++) {
+        std::cout << ASCII;
+    }
+    std::cout << R_ASCII << std::endl;
+
+}
+void B_Border(int bot_size) {
+    char ASCII = 205;
+    char L_ASCII = 200;
+    char R_ASCII = 188;
+
+    std::cout << L_ASCII;
+    for (int i = 0; i <= bot_size; i++) {
+        std::cout << ASCII;
+    }
+    std::cout << R_ASCII << std::endl;
+
+}
+
+
+
 
 
 
