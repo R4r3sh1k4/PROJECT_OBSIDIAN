@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Atomic.cpp" />
+    <ClCompile Include="Enemy_Class.cpp" />
+    <ClCompile Include="Enemy_Class_Derivates.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="Main_Menu.cpp" />
     <ClCompile Include="Main_Menu_Sounds.cpp" />
@@ -151,6 +153,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Atomic.h" />
+    <ClInclude Include="Enemy_Class.h" />
+    <ClInclude Include="Enemy_Class_Derivates.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="Main_Menu.h" />
     <ClInclude Include="Main_Menu_Sounds.h" />

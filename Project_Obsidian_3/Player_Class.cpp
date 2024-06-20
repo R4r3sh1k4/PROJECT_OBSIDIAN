@@ -71,4 +71,36 @@ bool Player::Crit_Chance() const {
 
 
 }
+/*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
+T H I S   N E E D S   T O   B E   C H A N G E D   F O R   T H E   F U N C T I O N   W H O   A S S I G N E S   T H E
+
+P L A Y E R   A   C L A S S   I N S I D E :    "Misc_Functions.cpp"
+
+
+D O  N O T  F O R G E T  P L S :3
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+Player* Player::create_Player(const std::string& type) {
+    if (type == "Gravis") {
+        return new Gravis();
+    }
+    else if (type == "Levis") {
+        return new Levis();
+    }
+    else if (type == "Burner") {
+        return new Burner();
+    }
+    else {
+        return nullptr;
+    }
+}
