@@ -7,7 +7,7 @@
 #include <string>
 #include <random>
 
-#include "Player_Class_Derivates.h"
+
 
 
 
@@ -39,7 +39,7 @@ public:
     virtual int get_CritMultiplier() const;
     virtual bool Crit_Chance() const;
     virtual void display_Stats() const;
-    static Player* create_Player(const std::string& type);
+  
 };
 
 #endif // PLAYER_H

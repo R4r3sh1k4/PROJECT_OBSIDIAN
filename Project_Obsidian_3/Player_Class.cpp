@@ -90,17 +90,3 @@ D O  N O T  F O R G E T  P L S :3
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
-Player* Player::create_Player(const std::string& type) {
-    if (type == "Gravis") {
-        return new Gravis();
-    }
-    else if (type == "Levis") {
-        return new Levis();
-    }
-    else if (type == "Burner") {
-        return new Burner();
-    }
-    else {
-        return nullptr;
-    }
-}

@@ -9,19 +9,18 @@ void Spaces(int num_of_spaces) {
     }
 }
 
-
 void L_Border() {
-    char ASCII = 186;
+    const char ASCII = 186;
     std::cout << ASCII;
 }
 void R_Border() {
-    char ASCII = 186;
+    const char ASCII = 186;
     std::cout << ASCII<< std::endl;
 }
 void T_Border(int top_size) {
-    char ASCII = 205; 
-    char L_ASCII = 201;
-    char R_ASCII = 187;
+    const char ASCII = 205;
+    const char L_ASCII = 201;
+    const char R_ASCII = 187;
 
     std::cout << L_ASCII;
     for (int i = 0; i <= top_size; i++) {
@@ -31,9 +30,9 @@ void T_Border(int top_size) {
 
 }
 void B_Border(int bot_size) {
-    char ASCII = 205;
-    char L_ASCII = 200;
-    char R_ASCII = 188;
+    const char ASCII = 205;
+    const char L_ASCII = 200;
+    const char R_ASCII = 188;
 
     std::cout << L_ASCII;
     for (int i = 0; i <= bot_size; i++) {
@@ -204,3 +203,14 @@ int Choose_Class() {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
